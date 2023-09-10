@@ -1,0 +1,32 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+.container{
+    width: 90%;
+}
+
+@media only screen and (max-width: 600px) {
+    .container{
+        width: 100%;
+    }
+}
+
+.gallaryImage{
+    height: 100px;
+}
+
+.Main-section{
+    background-image: url("../public/img/hero-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .Main-section{
+        height: auto;
+    }
+}
